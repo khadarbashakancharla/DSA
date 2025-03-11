@@ -5,8 +5,8 @@ class Solution:
             is_neg = True
         x = int(str(abs(x))[::-1])
         if is_neg:
-            x = -1*x
+            x = -1 * x
         if x < -2 ** 31 or x > 2**31-1:
             return 0
-        return x        
+        return x             
         
