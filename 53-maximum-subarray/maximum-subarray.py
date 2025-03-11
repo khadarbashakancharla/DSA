@@ -7,7 +7,7 @@ class Solution:
             max_sum = max(max_sum,current_sum)
             if current_sum < 0:
                 current_sum = 0
-        return max_sum   
+        return max_sum         
         # start = end = temp = 0
         #sub = []
         # for ele in nums:
